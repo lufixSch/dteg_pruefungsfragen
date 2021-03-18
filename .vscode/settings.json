@@ -13,5 +13,8 @@
       "tools": ["latexmk-convert"]
     }
   ],
-  "latex-workshop.latex.outDir": "%DIR%/build"
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "cSpell.words": [
+    "dteg"
+  ]
 }
