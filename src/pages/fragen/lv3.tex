@@ -1,0 +1,103 @@
+\section{Fragen zu Vorlesung 3}
+
+\subsection{Welches Frequenzspektrum hat ein sinusförmiges, welchess ein Pulsförmiges Signal?}
+\begin{itemize}
+  \item \textbf{Sinus:} Einzelner Puls bei der Frequenz des Signals
+  \item \textbf{Puls:} Hoher Puls bei der Frequenz des Signals. Langsam absinkende Pulse bei Vielfachen der Grundfrequenz. (Höherer Puls bei ungeraden Vielfachen)
+\end{itemize}
+
+\subsection{Welche Signalform generiert die wenigsten Störemissionen?}
+Ein Sinussignal, da es nur eine Frequenz besitzt.
+
+\subsection{Wann ist grundsätzlich mit Störemissionen von elektronischen Geräten zu rechnen?}
+
+
+\subsection{Erklären Sie das Quellen- Senkenmodell der EMV?}
+
+\begin{itemize}
+  \item \textbf{Störquelle:} Ursache von Störungen
+  \item \textbf{Störsenke:} Wird beeinflusst durch Störungen
+  \item \textbf{Koppelpfad:} Störende Verbindung zwischen Quelle und Senke
+\end{itemize}
+
+\subsection{Welche Arten von Koppelpfaden kennen Sie? Welche Maßnahmen können Sie zur Reduktion der Koppelpfade treffen?}
+\begin{itemize}
+  \item Galvanische Kopplung
+  \item Nahfeldkopplung
+  \item Einstrahlungsverkopplung
+  \item kapazitive Kopplung
+  \item induktive Kopplung
+\end{itemize}
+
+\subsection{Erklären Sie eine galvanische Kopplung im Detail. Welche Maßnahmen kennen Sie um eine galvanische Kopplung zu reduzieren}
+Entsteht bei einem gemeinsamen Rückleiter (Gemeinsame Masseleitung). Dur Leitungswiderstand entsteht Störspannung, die in die Störsenke gelangt.\p
+\textbf{Maßnahmen}\p
+\begin{itemize}
+  \item Nur gemeinsamen Massepunkt
+\end{itemize}
+
+
+\subsection{Was wird unter Nahfeldkopplung verstanden? Welche dieser Kopplungen kennen Sie?}
+
+
+\subsection{Erklären Sie eine kapazitive Kopplung. Wie kommt diese zustanden? Mit welchen Maßnahmen kann Sie reduziert werden}
+Tritt auf durch parasitäre Kapazitäten. Verkopplung einzelner Elemente durch parasitäre Kapazitäten (z.B. dadurch, dass Leitungen parallel verlaufen). Tritt nur dann auf, wenn sich das Potential der Elemente unterscheidet.\p
+\textbf{Maßnahmen}
+\begin{itemize}
+  \item Räumliche Trennung
+  \item Reduktion der Leitungslängen
+  \item Einbringen eines Massestreifen zwischen den Leitungen
+\end{itemize}
+
+\subsection{Erklären Sie eine induktive Kopplung. Wie kommt diese zustande? Welche Maßnahmen kennen Sie um diese zu reduzieren?}
+Tritt auf durch (parasitäre) Induktivitäten. Die Induktivitäten einer Stromschleife induziert Strom in eine andere Stromschleife.\p
+Die Kopplung wird beschrieben über den \textbf{Koppelfaktor}. Dies ist ein Faktor welcher angibt, wie viel Prozent des Störenden Signals auf die Schaltung wirkt. Die Reduzierung des Koppelfaktors reduziert den Einfluss der induktiven Kopplung.\p
+\textbf{Maßnahmen}
+\begin{itemize}
+  \item Räumliche Trennung
+  \item Abstrahlende Fläche, aufnehmende Fläche reduzieren (Leitungen kurz halten, Hin- und Rückleiter parallel zueinander verlegen)
+\end{itemize}
+
+\subsection{Was ist eine Strahlungskopplung? Wie kommt diese zustande? Welche Maßnahmen kennen Sie um diese zu reduzieren?}
+Störung durch einstrahlende Felder (z.B. Funk).
+
+\subsection{Wie können Störquellen grundsätzlich kategorisiert werden?}
+\textbf{Vorkommen}
+\begin{itemize}
+  \item Dauernde Einwirkung
+  \subitem Mobilfunk
+  \subitem Energieversorgung (Stromrichter, Schaltnetzteile) benachbarter Geräte
+  \item Einmalige Einwirkung
+  \subitem Blitze (Surge)
+  \subitem Elektrostatische Entladung (ESD)
+  \subitem Schaltvorgänge (EFT-Burst)
+  \subitem Spannungseinbrüche
+  \subitem Radar
+\end{itemize}
+%
+\textbf{Auftreten}
+\begin{itemize}
+  \item Leitungsgeführt
+  \subitem ESD
+  \subitem Burst
+  \subitem Surge
+
+  \item Eingestrahlt
+  \subitem Mobilfunk
+\end{itemize}
+
+\subsection{Wie entstehen Schmalbandstörer?}
+
+\subsection{Wie entstehen Breitbandstörer?}
+
+\subsection{Welche schmalbandigen Störungen kennen Sie?}
+
+\subsection{Welche breitbandigen Störungen kennen Sie?}
+
+\subsection{Was versteht man unter den EMV Prüfungen Surge, Burst, ESD und HF gestrahlt? Welche Störungen werden damit simuliert?}
+\begin{itemize}
+  \item \textbf{Surge:} Spannungs Impulse (50MHz)
+  \item \textbf{Burst:} Schaltvorgänge (100MHz)
+  \item \textbf{ESD:} Elektrostatische Entladung (100MHz)
+  \item \textbf{HF:}
+\end{itemize}
