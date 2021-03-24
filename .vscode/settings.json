@@ -2,11 +2,11 @@
   "latex-workshop.latex.recipes": [
     {
       "name": "standard",
-      "tools": ["latexmk"]
+      "tools": ["xelatex"]
     },
     {
-      "name": "xelatex",
-      "tools": ["xelatex"]
+      "name": "latexmk",
+      "tools": ["latexmk"]
     },
     {
       "name": "convert",
@@ -14,7 +14,6 @@
     }
   ],
   "latex-workshop.latex.outDir": "%DIR%/build",
-  "cSpell.words": [
-    "dteg"
-  ]
+  "cSpell.words": ["dteg"],
+  "discord.enabled": true
 }
