@@ -46,3 +46,4 @@
 \contentsline {subsection}{\numberline {3.16}Welche schmalbandigen Störungen kennen Sie?}{7}{subsection.3.16}%
 \contentsline {subsection}{\numberline {3.17}Welche breitbandigen Störungen kennen Sie?}{8}{subsection.3.17}%
 \contentsline {subsection}{\numberline {3.18}Was versteht man unter den EMV Prüfungen Surge, Burst, ESD und HF gestrahlt? Welche Störungen werden damit simuliert?}{8}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}Wie sieht eine beispielhafte Einteilung von Störsenken anhand der Art der Ausfallerscheinung aus? (FSPC = Functional Status Performance Classes)}{8}{subsection.3.19}%

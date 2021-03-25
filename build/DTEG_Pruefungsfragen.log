@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.24)  24 MAR 2021 23:36
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.24)  25 MAR 2021 10:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -544,14 +544,14 @@ Overfull \hbox (11.43672pt too wide) in paragraph at lines 73--74
 \TU/lmr/m/n/10 Störung durch einstrahlende höherfrequente Fernfelder (z.B. Elektromagnetische Feldkopplung $\OML/cmm/m/it/10 LTE; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 G; Radiowellen$\TU/lmr/m/n/10 ). 
  []
 
-[6] [7])) [8] (/Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.aux) ) 
+[6] [7] [8]) [9]) (/Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.aux) ) 
 Here is how much of TeX's memory you used:
- 15675 strings out of 478815
- 243411 string characters out of 5864646
+ 15682 strings out of 478815
+ 243500 string characters out of 5864646
  807606 words of memory out of 5000000
- 34940 multiletter control sequences out of 15000+600000
+ 34947 multiletter control sequences out of 15000+600000
  404332 words of font info for 41 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  89i,12n,92p,585b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.pdf (11 pages).
+Output written on /Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.pdf (12 pages).

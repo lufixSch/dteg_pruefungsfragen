@@ -57,6 +57,12 @@
     }
   ],
   "latex-workshop.latex.outDir": "%DIR%/build",
-  "cSpell.words": ["dteg"],
-  "discord.enabled": true
+  "cSpell.words": [
+    "FSPC",
+    "dteg"
+  ],
+  "discord.enabled": true,
+  "[latex]": {
+    "editor.formatOnSave": false
+  }
 }

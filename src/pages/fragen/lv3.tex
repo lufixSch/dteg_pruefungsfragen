@@ -10,7 +10,6 @@
 Ein Sinussignal, da es nur eine Frequenz besitzt.
 
 \subsection{Wann ist grundsätzlich mit Störemissionen von elektronischen Geräten zu rechnen?}
-
 Störemissionen treten auf wenn sich auf der Platine elektrische- / magnetische (Wechsel-)Felder bilden.
 
 \begin{itemize}
@@ -22,6 +21,7 @@ Störemissionen treten auf wenn sich auf der Platine elektrische- / magnetische 
 Glätten der Impulse durch beispielsweise Kapazitäten.
 
 \subsection{Warum entstehen Oberwellenströme bei einem Betrieb von Schaltnetzteilen?}
+Durch das Schalten des Transistors. Dadurch entstehen große Spannungssprünge am Knoten nach dem Transistor welche die parasitären Kapazitäten laden bzw. entladen.
 
 \subsection{Erklären Sie das Quellen- Senkenmodell der EMV?}
 \begin{itemize}
@@ -40,7 +40,7 @@ Glätten der Impulse durch beispielsweise Kapazitäten.
 \end{itemize}
 
 \subsection{Erklären Sie eine galvanische Kopplung im Detail. Welche Maßnahmen kennen Sie um eine galvanische Kopplung zu reduzieren}
-Entsteht bei einem gemeinsamen Rückleiter (Gemeinsame Masseleitung). Dur Leitungswiderstand entsteht Störspannung, die in die Störsenke gelangt.\p
+Entsteht bei einem gemeinsamen Rückleiter (Gemeinsame Masseleitung). Durch Leitungswiderstand entsteht Störspannung, die in die Störsenke gelangt.\p
 \textbf{Maßnahmen}
 \begin{itemize}
   \item Nur gemeinsamen Massepunkt
@@ -48,11 +48,11 @@ Entsteht bei einem gemeinsamen Rückleiter (Gemeinsame Masseleitung). Dur Leitun
 
 
 \subsection{Was wird unter Nahfeldkopplung verstanden? Welche dieser Kopplungen kennen Sie?}
-Störungen, welche durch niederfrequente elektrische oder magnetische Felder entstehen (bis maximal \(100MHz\)). Oft entstehen diese auf der selben Platine/im selben Gehäuse, wie beispielsweise bei kapazitiver und induktiver Kopplung.
+Störungen, welche durch niederfrequente elektrische oder magnetische Felder entstehen (bis maximal \(100MHz\)). Oft entstehen diese auf der selben Platine/im selben Gehäuse, wie beispielsweise bei \textbf{kapazitiver} und \textbf{induktiver} Kopplung.
 
 
 \subsection{Erklären Sie eine kapazitive Kopplung. Wie kommt diese zustanden? Mit welchen Maßnahmen kann Sie reduziert werden}
-Tritt auf durch parasitäre Kapazitäten. Verkopplung einzelner Elemente durch parasitäre Kapazitäten (z.B. dadurch, dass Leitungen parallel verlaufen). Tritt nur dann auf, wenn sich das Potential der Elemente unterscheidet.\p
+Verkopplung einzelner Elemente durch parasitäre Kapazitäten (z.B. dadurch, dass Leitungen parallel verlaufen). Tritt nur dann auf, wenn sich das Potential der Elemente unterscheidet.\p
 \textbf{Maßnahmen}
 \begin{itemize}
   \item Räumliche Trennung
@@ -62,7 +62,7 @@ Tritt auf durch parasitäre Kapazitäten. Verkopplung einzelner Elemente durch p
 
 \subsection{Erklären Sie eine induktive Kopplung. Wie kommt diese zustande? Welche Maßnahmen kennen Sie um diese zu reduzieren?}
 Tritt auf durch (parasitäre) Induktivitäten. Die Induktivitäten einer Stromschleife induziert Strom in eine andere Stromschleife.\p
-Die Kopplung wird beschrieben über den \textbf{Koppelfaktor}. Dies ist ein Faktor welcher angibt, wie viel Prozent des Störenden Signals auf die Schaltung wirkt. Die Reduzierung des Koppelfaktors reduziert den Einfluss der induktiven Kopplung.\p
+Die Kopplung wird beschrieben über den \textbf{Koppelfaktor}. Dies ist ein Faktor welcher angibt, wie viel Prozent des Störenden Signals auf die Schaltung wirkt. Die Reduktion des Koppelfaktors reduziert den Einfluss der induktiven Kopplung.\p
 \textbf{Maßnahmen}
 \begin{itemize}
   \item Räumliche Trennung
@@ -103,7 +103,7 @@ Störung durch einstrahlende höherfrequente Fernfelder (z.B. Elektromagnetische
 \end{itemize}
 
 \subsection{Wie entstehen Schmalbandstörer?}
-Werden von \textbf{periodischen} bzw. getakteten Quellen erzeugt
+Werden von \textbf{periodischen} bzw. getakteten Quellen erzeugt. Schmaler Frequenzbereich
 \textbf{Beispiele}
 \begin{itemize}
   \item Rundfunkt
@@ -112,7 +112,7 @@ Werden von \textbf{periodischen} bzw. getakteten Quellen erzeugt
 \end{itemize}
 
 \subsection{Wie entstehen Breitbandstörer?}
-Werden von nicht periodischen bzw. einmaligen \textbf{Störimpulsen} erzeugt
+Werden von nicht periodischen bzw. einmaligen \textbf{Störimpulsen} erzeugt. Großer Frequenzbereich bis in \m{GHz} Bereich
 \textbf{Beispiele}
 \begin{itemize}
   \item ESD
@@ -142,3 +142,29 @@ Werden von nicht periodischen bzw. einmaligen \textbf{Störimpulsen} erzeugt
   \item \textbf{ESD:} Elektrostatische Entladung (100MHz)
   \item \textbf{HF:} High Frequency
 \end{itemize}
+
+\subsection{Wie sieht eine beispielhafte Einteilung von Störsenken anhand der Art der Ausfallerscheinung aus? (FSPC = Functional Status Performance Classes)}
+\begin{itemize}
+  \item Klasse A
+    \subitem Keine Reaktion auf Störgrößen
+    \subitem Alle relevanten Parameter befinden sich immer in ihrem übeblichen Toleranzbereich
+    \subitem Seltene singuläre Ereignisse \m{\rightarrow} z.B. Blitzeinschlag \m{\rightarrow} abrutschen in Klasse B
+  \item Klasse B
+    \subitem Reaktion des Geräts fällt außerhalb des üblichen Toleranzbereichs
+    \subitem Nach Abklingen der Störgröße \m{\rightarrow} Rücksprung in Normalzustand
+    \subitem Nutzen: nicht sicherheitsrelevante Anwendungen \m{\rightarrow} wenn Störgröße dauerhaft vorherrschend \m{\rightarrow} Klasse B nicht zulässig (Funktion dann dauerhaft nicht möglich)
+  \item Klasse C
+    \subitem  Reaktion des Geräts fällt außerhalb des üblichen Toleranzbereichs
+    \subitem Nach Abklingen der Störgröße \m{\rightarrow} kein Rücksprung in Normalzustand \m{\rightarrow}Benutzereingriff erforderlich
+    \subitem Gedacht für nicht-sicherheitsrelevante Funktionen \m{\rightarrow} und Phänomene bei welchen ein Hardwarereset selten auftreten
+  \item Klasse D
+    \subitem System wird nach Störeinwirkung dauerhaft beschädigt \m{\rightarrow} muss von qualifizierter Person repariert werden
+    \subitem In \textbf{keinem} System zulässig es sei denn \m{\rightarrow} Komfortfunktion (Leselicht im Auto) oder selten auftretende Phänomene
+  \item Klasse FS
+    \subitem "Fail Safe"
+    \subitem System fällt aufgrund anliegender Störgröße in sicheren Zustand zurück (abschalten, neustarten)
+    \subitem vergleichbar mit C, jedoch muss Zustand stärker definiert sein \m{\rightarrow} Anforderung höher
+    \subitem große Maschinen, nur von qualiziertem Personal bedient, darf auch keinen Fall unmotivierte Bewegungen aufgrund von Gewicht oder Motorkraft ausführen
+  \end{itemize}
+
+\pagebreak
