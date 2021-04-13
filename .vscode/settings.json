@@ -59,7 +59,16 @@
   "latex-workshop.latex.outDir": "%DIR%/build",
   "cSpell.words": [
     "FSPC",
-    "dteg"
+    "burstpaket",
+    "burstpr",
+    "burstprüfung",
+    "burstst",
+    "burststörungen",
+    "dteg",
+    "fung",
+    "rungen",
+    "surgest",
+    "surgestörungen"
   ],
   "discord.enabled": true,
   "[latex]": {

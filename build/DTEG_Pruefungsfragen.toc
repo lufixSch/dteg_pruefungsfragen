@@ -60,7 +60,7 @@
 \contentsline {subsection}{\numberline {4.10}Was ist der Unterschied zwischen dem HBM und dem MM?}{11}{subsection.4.10}%
 \contentsline {subsection}{\numberline {4.11}Was ist der Unterschied zwischen Kontakt und Luftentladung? Wann wird welche Entladeart angewandt?}{11}{subsection.4.11}%
 \contentsline {subsection}{\numberline {4.12}Von welchen Einflüssen ist die Reproduzierbarkeit der ESD Luftentladung abhängig?}{11}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Wie schaut ein ESD Prüfaufbau aus?}{11}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.13}Wie schaut ein ESD Prüfaufbau aus?}{12}{subsection.4.13}%
 \contentsline {subsection}{\numberline {4.14}Wann und warum entstehen Burststörungen?}{12}{subsection.4.14}%
 \contentsline {subsection}{\numberline {4.15}Welches Frequenzspektrum hat ein Burstpuls?}{12}{subsection.4.15}%
 \contentsline {subsection}{\numberline {4.16}Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}{12}{subsection.4.16}%
