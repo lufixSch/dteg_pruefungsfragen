@@ -65,13 +65,22 @@
     "burstst",
     "burststörungen",
     "dteg",
+    "einstrahlungsverkopplung",
     "fung",
     "rungen",
     "surgest",
-    "surgestörungen"
+    "surgestörungen",
+    "triboelectric",
+    "triboelektrischen"
   ],
   "discord.enabled": true,
   "[latex]": {
     "editor.formatOnSave": false
-  }
+  },
+  "files.associations": {
+    "*.yaml": "home-assistant"
+  },
+  "cSpell.ignoreWords": [
+    "pruefungsfragen"
+  ]
 }

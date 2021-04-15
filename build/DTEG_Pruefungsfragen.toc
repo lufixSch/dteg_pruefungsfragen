@@ -53,23 +53,23 @@
 \contentsline {subsection}{\numberline {4.3}Mit welchen Spannungs- und Stromhöhen ist bei ESD zu rechnen?}{10}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Welche Parameter haben Einfluss auf elektrostatische Aufladungen?}{10}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Welches Frequenzspektrum hat ein ESD Puls?}{10}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Welche Anstiegszeit und welche Halbwertszeit hat ein ESD Puls?}{10}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Wie kann ein ESD Puls in elektronische Schaltungen einkoppeln?}{10}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Was versteht man unter einen triboelektrischen Effekt?}{10}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.6}Welche Anstiegszeit und welche Halbwertszeit hat ein ESD Puls?}{11}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Wie kann ein ESD Puls in elektronische Schaltungen einkoppeln?}{11}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Was versteht man unter einen triboelektrischen Effekt?}{11}{subsection.4.8}%
 \contentsline {subsection}{\numberline {4.9}Welche Maßnahmen werden zum Schutz von elektrostatischer Entladung gesetzt?}{11}{subsection.4.9}%
 \contentsline {subsection}{\numberline {4.10}Was ist der Unterschied zwischen dem HBM und dem MM?}{11}{subsection.4.10}%
 \contentsline {subsection}{\numberline {4.11}Was ist der Unterschied zwischen Kontakt und Luftentladung? Wann wird welche Entladeart angewandt?}{11}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Von welchen Einflüssen ist die Reproduzierbarkeit der ESD Luftentladung abhängig?}{11}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Wie schaut ein ESD Prüfaufbau aus?}{11}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Wann und warum entstehen Burststörungen?}{11}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Welches Frequenzspektrum hat ein Burstpuls?}{11}{subsection.4.15}%
-\contentsline {subsection}{\numberline {4.16}Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}{11}{subsection.4.16}%
-\contentsline {subsection}{\numberline {4.17}Welche Anstiegszeit und welche Halbwertszeit hat ein Burstpuls?}{11}{subsection.4.17}%
-\contentsline {subsection}{\numberline {4.18}Wie viele Pulse hat ein Burstpaket?}{11}{subsection.4.18}%
-\contentsline {subsection}{\numberline {4.19}Welche Einkopplungsmöglichkeiten kennt man bei der Burstprüfung?}{11}{subsection.4.19}%
-\contentsline {subsection}{\numberline {4.20}Wie können Burststörungen in elektronischen Schaltungen reduziert werden?}{11}{subsection.4.20}%
-\contentsline {subsection}{\numberline {4.21}Wann und warum entstehen Surgestörungen?}{11}{subsection.4.21}%
-\contentsline {subsection}{\numberline {4.22}Welches Frequenzspektrum hat ein Surgepuls?}{12}{subsection.4.22}%
-\contentsline {subsection}{\numberline {4.23}Mit welchen Spannungs- und Stromhöhen ist beim Surge zu rechnen?}{12}{subsection.4.23}%
-\contentsline {subsection}{\numberline {4.24}Wie können elektronische Schaltungen vor Surge geschützt werden?}{12}{subsection.4.24}%
-\contentsline {subsection}{\numberline {4.25}Auf welchen Leitungen werden Surge- und Burststörungen üblicherweise eingekoppelt?}{12}{subsection.4.25}%
+\contentsline {subsection}{\numberline {4.12}Von welchen Einflüssen ist die Reproduzierbarkeit der ESD Luftentladung abhängig?}{12}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Wie schaut ein ESD Prüfaufbau aus?}{12}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Wann und warum entstehen Burststörungen?}{12}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}Welches Frequenzspektrum hat ein Burstpuls?}{12}{subsection.4.15}%
+\contentsline {subsection}{\numberline {4.16}Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}{12}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}Welche Anstiegszeit und welche Halbwertszeit hat ein Burstpuls?}{12}{subsection.4.17}%
+\contentsline {subsection}{\numberline {4.18}Wie viele Pulse hat ein Burstpaket?}{12}{subsection.4.18}%
+\contentsline {subsection}{\numberline {4.19}Welche Einkopplungsmöglichkeiten kennt man bei der Burstprüfung?}{13}{subsection.4.19}%
+\contentsline {subsection}{\numberline {4.20}Wie können Burststörungen in elektronischen Schaltungen reduziert werden?}{13}{subsection.4.20}%
+\contentsline {subsection}{\numberline {4.21}Wann und warum entstehen Surgestörungen?}{13}{subsection.4.21}%
+\contentsline {subsection}{\numberline {4.22}Welches Frequenzspektrum hat ein Surgepuls?}{13}{subsection.4.22}%
+\contentsline {subsection}{\numberline {4.23}Mit welchen Spannungs- und Stromhöhen ist beim Surge zu rechnen?}{13}{subsection.4.23}%
+\contentsline {subsection}{\numberline {4.24}Wie können elektronische Schaltungen vor Surge geschützt werden?}{13}{subsection.4.24}%
+\contentsline {subsection}{\numberline {4.25}Auf welchen Leitungen werden Surge- und Burststörungen üblicherweise eingekoppelt?}{13}{subsection.4.25}%

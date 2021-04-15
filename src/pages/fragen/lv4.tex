@@ -28,22 +28,25 @@ z.B.
 \subsection{Welches Frequenzspektrum hat ein ESD Puls?}
 Breitbandiges Störspektrum
 
-%TODO Foto ESD Entladung Prüfimpuls EN 61000-4-2
+\begin{figure}[ht]
+  \centering
+  \includegraphics[height=8cm]{src/assets/pictures/lv4_esd_impuls.png}
+  \caption{ESD Entladung eines Prüfimpuls gemäß \textit{EN 61000-4-2:2009}}\label{fig:lv4:esd_impuls}
+\end{figure}
 
 \subsection{Welche Anstiegszeit und welche Halbwertszeit hat ein ESD Puls?}
-Sehr schnelle Anstiegszeiten Subnanobereich
-~ 30 ns Halbwertszeit
+Sehr schnelle Anstiegszeiten Subnanobereich. Halbwertszeit \(\approx 30ns\). (Siehe Abbildung~\ref{fig:lv4:esd_impuls})
 
 \subsection{Wie kann ein ESD Puls in elektronische Schaltungen einkoppeln?}
 \begin{itemize}
   \item Galvanisch durch Funkenüberschlag
-  \item Induktiv durch di/dt auf geerdete Teile
-  \item Kapazitiv durch du/dt auf isolierte metallische Teile
-  \item Abstrahlung Magnetfeld durch große di/dt
+  \item Induktiv durch \(\frac{di}{dt}\) auf geerdete Teile
+  \item Kapazitiv durch \(\frac{du}{dt}\) auf isolierte metallische Teile
+  \item Abstrahlung Magnetfeld durch große \(\frac{di}{dt}\)
 \end{itemize}
 
 \subsection{Was versteht man unter einen triboelektrischen Effekt?}
-Engl.: Triboelectric Charge. Elektrostatische Aufladung durch Berührung/Reibung (Siehe Frage~\ref{sec:lv4:electrostatic}). Verschiebung von Elektronen auf der Metalloberfläche meist durch Berührung und anschließender Trennung. => Ladungstransfer zwischen Körpern mit verschiedenem Potential.
+Engl.: Triboelectric Charge. Elektrostatische Aufladung durch Berührung/Reibung (Siehe Frage~\ref{sec:lv4:electrostatic}). Verschiebung von Elektronen auf der Metalloberfläche meist durch Berührung und anschließender Trennung => Ladungstransfer zwischen Körpern mit verschiedenem Potential.
 
 \subsection{Welche Maßnahmen werden zum Schutz von elektrostatischer Entladung gesetzt?}
 Abhilfe: ESD-Schutzelemente
@@ -52,10 +55,20 @@ Abhilfe: ESD-Schutzelemente
 \end{itemize}
 
 \subsection{Was ist der Unterschied zwischen dem HBM und dem MM?}
+HBM, MM und CDM sind verschiedene Aufbauten für ESD Prüfungen.\p
+%
+\textbf{Human-Body Model (HBM)}\\
+Simulation eines ESD durch die Entladung eines Menschen.\p
+%
+\textbf{Machine Model (MM)}\\
+Hier wird das entladen eines beliebigen Objekts auf das Gerät simuliert.\p
+%
+\textbf{Charged Device Model (CDM)}\\
+Das CDM simuliert die Entladung des statisch geladenen Geräts, wenn es mit einem leitenden Material in Berührung kommt.\p
 
 \subsection{Was ist der Unterschied zwischen Kontakt und Luftentladung? Wann wird welche Entladeart angewandt?}
-\textbf{Kontaktentladung}
-%TODO Definition
+\textbf{Kontaktentladung:}
+Entladung durch Berührung des Geräts oder der Koppelplatte
 %
 \begin{itemize}
   \item gezielt
@@ -63,8 +76,8 @@ Abhilfe: ESD-Schutzelemente
   \item direkt/indirekt
 \end{itemize}
 %
-\textbf{Luftentladung}
-%TODO Definition
+\textbf{Luftentladung:}
+Entladung über die Luft
 %
 \begin{itemize}
   \item ungezielt
@@ -80,12 +93,17 @@ Abhilfe: ESD-Schutzelemente
 \end{itemize}
 
 \subsection{Wie schaut ein ESD Prüfaufbau aus?}
-%TODO Foto ESD Entladung Prüfaufbau (direkt)
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[height=8cm]{src/assets/pictures/lv4_prüfaufbau.png}
+  \caption{ESD Prüfaufbau}\label{fig:lv4:esd_test}
+\end{figure}
 
 \subsection{Wann und warum entstehen Burststörungen?}
 Burststörungen sind leitungsgeführte Störungen und treten bei schnellen Schaltflanken auf. 
 
 \subsection{Welches Frequenzspektrum hat ein Burstpuls?}
+Unterschiedliche Bandbreiten möglich. Bandbreite steigt je kürzer der Impuls ist.\\
 siehe Abbildung \ref{fig:lv4:electro_interferences}
 \begin{figure}[ht]
   \centering
@@ -96,8 +114,17 @@ siehe Abbildung \ref{fig:lv4:electro_interferences}
 \subsection{Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}
 
 \subsection{Welche Anstiegszeit und welche Halbwertszeit hat ein Burstpuls?}
+Anstiegszeit \(\approx 5ns \pm 30\%\). Halbwertszeit \(\approx 50ns \pm 30\%\). (Siehe Abbildung~\ref{fig:lv4:burst_impuls})
+
+\begin{figure}
+  \centering
+  \includegraphics[height=5cm]{src/assets/pictures/lv4_burst_impuls.png}
+  \caption{Burst Prüfimpuls}\label{fig:lv4:burst_impuls}
+\end{figure}
 
 \subsection{Wie viele Pulse hat ein Burstpaket?}
+Ein Burstpaket entsteht beispielsweise aufgrund der Prellwirkung eines Schalters. Es entstehen somit mehrere aufeinanderfolgende Burstpulse.\p
+Für die Burstprüfung wird alle \(300ms\) ein \(15ms\) langes Burstpaket ausgelöst. Ein Brustpaket hat \(6\) Pulse
 
 \subsection{Welche Einkopplungsmöglichkeiten kennt man bei der Burstprüfung?}
 

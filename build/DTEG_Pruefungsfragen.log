@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.4.14)  15 APR 2021 18:10
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.4.14)  15 APR 2021 18:24
 entering extended mode
 **"/Users/simonhu/OneDrive - FH JOANNEUM/4Semester/DTEG/Wolfgang_Stock_Fragen/D
 TEG_Pruefungsfragen.tex"
@@ -750,8 +750,8 @@ echnik/Elektronik?
  []
 
 [1]) [2] (src/pages/fragen/lv2.tex
-File: src/assets/pictures/vl2_konformitaetsprozess.jpg Graphic file (type bmp)
-<src/assets/pictures/vl2_konformitaetsprozess.jpg>
+File: src/assets/pictures/lv2_konformitaetsprozess.jpg Graphic file (type bmp)
+<src/assets/pictures/lv2_konformitaetsprozess.jpg>
 
 Overfull \hbox (9.96904pt too wide) in paragraph at lines 33--34
 \TU/lmr/m/n/10 Der Hersteller bringt das Gerät in Verkehr. Sie geben Namen, ihr
@@ -801,10 +801,10 @@ lche Maßnahmen
  []
 
 
-Overfull \hbox (11.43672pt too wide) in paragraph at lines 73--74
+Overfull \hbox (10.05466pt too wide) in paragraph at lines 73--77
 \TU/lmr/m/n/10 Störung durch einstrahlende höherfrequente Fernfelder (z.B. Elek
-tromagnetische Feldkopplung $\OML/cmm/m/it/10 LTE; \OT1/cmr/m/n/10 5\OML/cmm/m/
-it/10 G; Radiowellen$\TU/lmr/m/n/10 ). 
+tromagnetische Feldkopplung \TU/lmr/m/it/10 LTE, 5G, Radiowellen\TU/lmr/m/n/10 
+). 
  []
 
 [6] [7] [8]) [9] (src/pages/fragen/lv4.tex
@@ -819,34 +819,47 @@ Overfull \hbox (17.41794pt too wide) in paragraph at lines 11--14
 ge (durchdringen eines Isolators). Diese Durchschläge
  []
 
+File: src/assets/pictures/lv4_esd_impuls.png Graphic file (type bmp)
+<src/assets/pictures/lv4_esd_impuls.png>
 [10]
-Overfull \hbox (24.13379pt too wide) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 58--68
+
+ []
+
+
+Overfull \hbox (24.13379pt too wide) in paragraph at lines 87--87
 []\TU/lmr/bx/n/12 Von welchen Einflüssen ist die Reproduzierbarkeit der ESD Luf
 tentladung abhängig? 
  []
 
+[11]
+File: src/assets/pictures/lv4_prüfaufbau.png Graphic file (type bmp)
+<src/assets/pictures/lv4_prüfaufbau.png>
 File: src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg Graphic file (t
 ype bmp)
 <src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg>
+File: src/assets/pictures/lv4_burst_impuls.png Graphic file (type bmp)
+<src/assets/pictures/lv4_burst_impuls.png>
+ [12]
 File: src/assets/pictures/lv4_surge_pulse.jpg Graphic file (type bmp)
 <src/assets/pictures/lv4_surge_pulse.jpg>
-[11]
-Overfull \hbox (37.1793pt too wide) in paragraph at lines 122--122
+
+Overfull \hbox (37.1793pt too wide) in paragraph at lines 149--149
 []\TU/lmr/bx/n/12 Auf welchen Leitungen werden Surge- und Burststörungen üblich
 erweise eingekoppelt? 
  []
 
-) [12])
+) [13]) [14]
 (/Users/simonhu/OneDrive - FH JOANNEUM/4Semester/DTEG/Wolfgang_Stock_Fragen/bui
 ld/DTEG_Pruefungsfragen.aux) ) 
 Here is how much of TeX's memory you used:
- 15169 strings out of 413692
- 233475 string characters out of 2869150
+ 15203 strings out of 413692
+ 234462 string characters out of 2869150
  807250 words of memory out of 3000000
- 34783 multiletter control sequences out of 15000+600000
- 404332 words of font info for 41 fonts, out of 8000000 for 9000
+ 34806 multiletter control sequences out of 15000+600000
+ 404348 words of font info for 43 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  95i,12n,97p,585b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/simonhu/OneDrive - FH JOANNEUM/4Semester/DTEG/Wolfgang
-_Stock_Fragen/build/DTEG_Pruefungsfragen.pdf (15 pages).
+_Stock_Fragen/build/DTEG_Pruefungsfragen.pdf (17 pages).
