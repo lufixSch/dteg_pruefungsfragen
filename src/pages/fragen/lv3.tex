@@ -1,10 +1,10 @@
 \section{Fragen zu Vorlesung 3}
 
 \subsection{Welches Frequenzspektrum hat ein sinusförmiges, welchess ein Pulsförmiges Signal?}\label{sec:lv3:freq_spekt}
-\begin{itemize}
-  \item \textbf{Sinus:} Einzelner Puls bei der Frequenz des Signals
-  \item \textbf{Puls:} Hoher Puls bei der Frequenz des Signals. Langsam absinkende Pulse bei Vielfachen der Grundfrequenz. (Höherer Puls bei ungeraden Vielfachen)
-\end{itemize}
+\begin{outline}
+  \1 \textbf{Sinus:} Einzelner Puls bei der Frequenz des Signals
+  \1 \textbf{Puls:} Hoher Puls bei der Frequenz des Signals. Langsam absinkende Pulse bei Vielfachen der Grundfrequenz. (Höherer Puls bei ungeraden Vielfachen)
+\end{outline}
 
 \subsection{Welche Signalform generiert die wenigsten Störemissionen?}
 Ein Sinussignal, da es nur eine Frequenz besitzt.
@@ -12,10 +12,10 @@ Ein Sinussignal, da es nur eine Frequenz besitzt.
 \subsection{Wann ist grundsätzlich mit Störemissionen von elektronischen Geräten zu rechnen?}
 Störemissionen treten auf wenn sich auf der Platine elektrische- / magnetische (Wechsel-)Felder bilden.
 
-\begin{itemize}
-  \item Jedes Gerät \(\rightarrow\) erzeugt elektromagnetische Störung (Elektronenbewegung, Potentialunterschiede)
-  \item Störungsaussendung = leitungsgeführt oder gestrahlt
-\end{itemize}
+\begin{outline}
+  \1 Jedes Gerät \(\rightarrow\) erzeugt elektromagnetische Störung (Elektronenbewegung, Potentialunterschiede)
+  \1 Störungsaussendung = leitungsgeführt oder gestrahlt
+\end{outline}
 
 \subsection{Welche Maßnahmen können gesetzt werden um breitbandige Störemissionen von Signalen zu reduzieren?}
 Glätten der Impulse durch beispielsweise Kapazitäten.
@@ -24,27 +24,27 @@ Glätten der Impulse durch beispielsweise Kapazitäten.
 Durch das Schalten des Transistors. Dadurch entstehen große Spannungssprünge am Knoten nach dem Transistor welche die parasitären Kapazitäten laden bzw. entladen.
 
 \subsection{Erklären Sie das Quellen- Senkenmodell der EMV?}
-\begin{itemize}
-  \item \textbf{Störquelle:} Ursache von Störungen
-  \item \textbf{Störsenke:} Wird beeinflusst durch Störungen
-  \item \textbf{Koppelpfad:} Störende Verbindung zwischen Quelle und Senke
-\end{itemize}
+\begin{outline}
+  \1 \textbf{Störquelle:} Ursache von Störungen
+  \1 \textbf{Störsenke:} Wird beeinflusst durch Störungen
+  \1 \textbf{Koppelpfad:} Störende Verbindung zwischen Quelle und Senke
+\end{outline}
 
 \subsection{Welche Arten von Koppelpfaden kennen Sie? Welche Maßnahmen können Sie zur Reduktion der Koppelpfade treffen?}
-\begin{itemize}
-  \item Galvanische Kopplung
-  \item Nahfeldkopplung
-  \item Einstrahlungsverkopplung
-  \item kapazitive Kopplung
-  \item induktive Kopplung
-\end{itemize}
+\begin{outline}
+  \1 Galvanische Kopplung
+  \1 Nahfeldkopplung
+  \1 Einstrahlungsverkopplung
+  \1 kapazitive Kopplung
+  \1 induktive Kopplung
+\end{outline}
 
 \subsection{Erklären Sie eine galvanische Kopplung im Detail. Welche Maßnahmen kennen Sie um eine galvanische Kopplung zu reduzieren}
 Entsteht bei einem gemeinsamen Rückleiter (Gemeinsame Masseleitung). Durch Leitungswiderstand entsteht Störspannung, die in die Störsenke gelangt.\p
 \textbf{Maßnahmen}
-\begin{itemize}
-  \item Nur gemeinsamen Massepunkt
-\end{itemize}
+\begin{outline}
+  \1 Nur gemeinsamen Massepunkt
+\end{outline}
 
 
 \subsection{Was wird unter Nahfeldkopplung verstanden? Welche dieser Kopplungen kennen Sie?}
@@ -54,117 +54,117 @@ Störungen, welche durch niederfrequente elektrische oder magnetische Felder ent
 \subsection{Erklären Sie eine kapazitive Kopplung. Wie kommt diese zustanden? Mit welchen Maßnahmen kann Sie reduziert werden}
 Verkopplung einzelner Elemente durch parasitäre Kapazitäten (z.B. dadurch, dass Leitungen parallel verlaufen). Tritt nur dann auf, wenn sich das Potential der Elemente unterscheidet.\p
 \textbf{Maßnahmen}
-\begin{itemize}
-  \item Räumliche Trennung
-  \item Reduktion der Leitungslängen
-  \item Einbringen eines Massestreifen zwischen den Leitungen
-\end{itemize}
+\begin{outline}
+  \1 Räumliche Trennung
+  \1 Reduktion der Leitungslängen
+  \1 Einbringen eines Massestreifen zwischen den Leitungen
+\end{outline}
 
 \subsection{Erklären Sie eine induktive Kopplung. Wie kommt diese zustande? Welche Maßnahmen kennen Sie um diese zu reduzieren?}
 Tritt auf durch (parasitäre) Induktivitäten. Die Induktivitäten einer Stromschleife induziert Strom in eine andere Stromschleife.\p
 Die Kopplung wird beschrieben über den \textbf{Koppelfaktor}. Dies ist ein Faktor welcher angibt, wie viel Prozent des Störenden Signals auf die Schaltung wirkt. Die Reduktion des Koppelfaktors reduziert den Einfluss der induktiven Kopplung.\p
 \textbf{Maßnahmen}
-\begin{itemize}
-  \item Räumliche Trennung
-  \item Abstrahlende Fläche, aufnehmende Fläche reduzieren (Leitungen kurz halten, Hin- und Rückleiter parallel zueinander verlegen)
-\end{itemize}
+\begin{outline}
+  \1 Räumliche Trennung
+  \1 Abstrahlende Fläche, aufnehmende Fläche reduzieren (Leitungen kurz halten, Hin- und Rückleiter parallel zueinander verlegen)
+\end{outline}
 
 \subsection{Was ist eine Strahlungskopplung? Wie kommt diese zustande? Welche Maßnahmen kennen Sie um diese zu reduzieren?}
 Störung durch einstrahlende höherfrequente Fernfelder (z.B. Elektromagnetische Feldkopplung \textit{LTE, 5G, Radiowellen}).\p
 %
 \textbf{Maßnahmen}
-\begin{itemize}
-  \item Verwendung eines geschirmten Gehäuses.
-\end{itemize}
+\begin{outline}
+  \1 Verwendung eines geschirmten Gehäuses.
+\end{outline}
 
 \subsection{Wie können Störquellen grundsätzlich kategorisiert werden?}
 \textbf{Vorkommen}
-\begin{itemize}
-  \item Dauernde Einwirkung
-  \subitem Mobilfunk
-  \subitem Energieversorgung (Stromrichter, Schaltnetzteile) benachbarter Geräte
-  \item Einmalige Einwirkung
-  \subitem Blitze (Surge)
-  \subitem Elektrostatische Entladung (ESD)
-  \subitem Schaltvorgänge (EFT-Burst)
-  \subitem Spannungseinbrüche
-  \subitem Radar
-\end{itemize}
+\begin{outline}
+  \1 Dauernde Einwirkung
+  \2 Mobilfunk
+  \2 Energieversorgung (Stromrichter, Schaltnetzteile) benachbarter Geräte
+  \1 Einmalige Einwirkung
+  \2 Blitze (Surge)
+  \2 Elektrostatische Entladung (ESD)
+  \2 Schaltvorgänge (EFT-Burst)
+  \2 Spannungseinbrüche
+  \2 Radar
+\end{outline}
 %
 \textbf{Auftreten}
-\begin{itemize}
-  \item Leitungsgeführt
-  \subitem ESD
-  \subitem Burst
-  \subitem Surge
+\begin{outline}
+  \1 Leitungsgeführt
+  \2 ESD
+  \2 Burst
+  \2 Surge
 
-  \item Eingestrahlt
-  \subitem Mobilfunk
-\end{itemize}
+  \1 Eingestrahlt
+  \2 Mobilfunk
+\end{outline}
 
 \subsection{Wie entstehen Schmalbandstörer?}
 Werden von \textbf{periodischen} bzw. getakteten Quellen erzeugt. Schmaler Frequenzbereich
 \textbf{Beispiele}
-\begin{itemize}
-  \item Rundfunkt
-  \item Schaltnetzteile
-  \item Prozessoren
-\end{itemize}
+\begin{outline}
+  \1 Rundfunkt
+  \1 Schaltnetzteile
+  \1 Prozessoren
+\end{outline}
 
 \subsection{Wie entstehen Breitbandstörer?}
 Werden von nicht periodischen bzw. einmaligen \textbf{Störimpulsen} erzeugt. Großer Frequenzbereich bis in \m{GHz} Bereich
 \textbf{Beispiele}
-\begin{itemize}
-  \item ESD
-  \item Blitzentladungen
-  \item Schaltvorgänge
-\end{itemize}
+\begin{outline}
+  \1 ESD
+  \1 Blitzentladungen
+  \1 Schaltvorgänge
+\end{outline}
 
 \subsection{Welche schmalbandigen Störungen kennen Sie?}
-\begin{itemize}
-  \item Mobilfunk
-  \item Energieversorgung (Stromrichter, Schaltnetzteile) benachbarter Geräte
-\end{itemize}
+\begin{outline}
+  \1 Mobilfunk
+  \1 Energieversorgung (Stromrichter, Schaltnetzteile) benachbarter Geräte
+\end{outline}
 
 \subsection{Welche breitbandigen Störungen kennen Sie?}
-\begin{itemize}
-  \item Blitze (Surge)
-  \item Elektrostatische Entladung (ESD)
-  \item Schaltvorgänge (EFT-Burst)
-  \item Spannungseinbrüche
-  \item Radar
-\end{itemize}
+\begin{outline}
+  \1 Blitze (Surge)
+  \1 Elektrostatische Entladung (ESD)
+  \1 Schaltvorgänge (EFT-Burst)
+  \1 Spannungseinbrüche
+  \1 Radar
+\end{outline}
 
 \subsection{Was versteht man unter den EMV Prüfungen Surge, Burst, ESD und HF gestrahlt? Welche Störungen werden damit simuliert?}
-\begin{itemize}
-  \item \textbf{Surge:} Spannungs Impulse (50MHz)
-  \item \textbf{Burst:} Schaltvorgänge (100MHz)
-  \item \textbf{ESD:} Elektrostatische Entladung (100MHz)
-  \item \textbf{HF:} High Frequency
-\end{itemize}
+\begin{outline}
+  \1 \textbf{Surge:} Spannungs Impulse (50MHz)
+  \1 \textbf{Burst:} Schaltvorgänge (100MHz)
+  \1 \textbf{ESD:} Elektrostatische Entladung (100MHz)
+  \1 \textbf{HF:} High Frequency
+\end{outline}
 
 \subsection{Wie sieht eine beispielhafte Einteilung von Störsenken anhand der Art der Ausfallerscheinung aus? (FSPC = Functional Status Performance Classes)}
-\begin{itemize}
-  \item Klasse A
-    \subitem Keine Reaktion auf Störgrößen
-    \subitem Alle relevanten Parameter befinden sich immer in ihrem übeblichen Toleranzbereich
-    \subitem Seltene singuläre Ereignisse \m{\rightarrow} z.B. Blitzeinschlag \m{\rightarrow} abrutschen in Klasse B
-  \item Klasse B
-    \subitem Reaktion des Geräts fällt außerhalb des üblichen Toleranzbereichs
-    \subitem Nach Abklingen der Störgröße \m{\rightarrow} Rücksprung in Normalzustand
-    \subitem Nutzen: nicht sicherheitsrelevante Anwendungen \m{\rightarrow} wenn Störgröße dauerhaft vorherrschend \m{\rightarrow} Klasse B nicht zulässig (Funktion dann dauerhaft nicht möglich)
-  \item Klasse C
-    \subitem  Reaktion des Geräts fällt außerhalb des üblichen Toleranzbereichs
-    \subitem Nach Abklingen der Störgröße \m{\rightarrow} kein Rücksprung in Normalzustand \m{\rightarrow}Benutzereingriff erforderlich
-    \subitem Gedacht für nicht-sicherheitsrelevante Funktionen \m{\rightarrow} und Phänomene bei welchen ein Hardwarereset selten auftreten
-  \item Klasse D
-    \subitem System wird nach Störeinwirkung dauerhaft beschädigt \m{\rightarrow} muss von qualifizierter Person repariert werden
-    \subitem In \textbf{keinem} System zulässig es sei denn \m{\rightarrow} Komfortfunktion (Leselicht im Auto) oder selten auftretende Phänomene
-  \item Klasse FS
-    \subitem ,,Fail Safe''
-    \subitem System fällt aufgrund anliegender Störgröße in sicheren Zustand zurück (abschalten, neustarten)
-    \subitem vergleichbar mit C, jedoch muss Zustand stärker definiert sein \m{\rightarrow} Anforderung höher
-    \subitem große Maschinen, nur von qualiziertem Personal bedient, darf auch keinen Fall unmotivierte Bewegungen aufgrund von Gewicht oder Motorkraft ausführen
-  \end{itemize}
+\begin{outline}
+  \1 Klasse A
+    \2 Keine Reaktion auf Störgrößen
+    \2 Alle relevanten Parameter befinden sich immer in ihrem übeblichen Toleranzbereich
+    \2 Seltene singuläre Ereignisse \m{\rightarrow} z.B. Blitzeinschlag \m{\rightarrow} abrutschen in Klasse B
+  \1 Klasse B
+    \2 Reaktion des Geräts fällt außerhalb des üblichen Toleranzbereichs
+    \2 Nach Abklingen der Störgröße \m{\rightarrow} Rücksprung in Normalzustand
+    \2 Nutzen: nicht sicherheitsrelevante Anwendungen \m{\rightarrow} wenn Störgröße dauerhaft vorherrschend \m{\rightarrow} Klasse B nicht zulässig (Funktion dann dauerhaft nicht möglich)
+  \1 Klasse C
+    \2  Reaktion des Geräts fällt außerhalb des üblichen Toleranzbereichs
+    \2 Nach Abklingen der Störgröße \m{\rightarrow} kein Rücksprung in Normalzustand \m{\rightarrow}Benutzereingriff erforderlich
+    \2 Gedacht für nicht-sicherheitsrelevante Funktionen \m{\rightarrow} und Phänomene bei welchen ein Hardwarereset selten auftreten
+  \1 Klasse D
+    \2 System wird nach Störeinwirkung dauerhaft beschädigt \m{\rightarrow} muss von qualifizierter Person repariert werden
+    \2 In \textbf{keinem} System zulässig es sei denn \m{\rightarrow} Komfortfunktion (Leselicht im Auto) oder selten auftretende Phänomene
+  \1 Klasse FS
+    \2 ,,Fail Safe''
+    \2 System fällt aufgrund anliegender Störgröße in sicheren Zustand zurück (abschalten, neustarten)
+    \2 vergleichbar mit C, jedoch muss Zustand stärker definiert sein \m{\rightarrow} Anforderung höher
+    \2 große Maschinen, nur von qualiziertem Personal bedient, darf auch keinen Fall unmotivierte Bewegungen aufgrund von Gewicht oder Motorkraft ausführen
+\end{outline}
 
 \pagebreak

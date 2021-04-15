@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.24)  15 APR 2021 22:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.24)  15 APR 2021 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,7 +333,11 @@ LaTeX Warning: Command \markboth  has changed.
 LaTeX Warning: Command \markright  has changed.
                Check if current package is valid.
 
-) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/outlines/outlines.sty
+Package: outlines 2012/1/23 1.1 Ch. Pecheur
+ (/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (/usr/local/texlive/2019basic/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
@@ -559,12 +563,12 @@ File: src/assets/pictures/lv4_surge_pulse.jpg Graphic file (type bmp)
 <src/assets/pictures/lv4_surge_pulse.jpg>
  [13]) [14]) (/Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.aux) ) 
 Here is how much of TeX's memory you used:
- 15756 strings out of 478815
- 245291 string characters out of 5864646
- 807606 words of memory out of 5000000
- 35005 multiletter control sequences out of 15000+600000
+ 15837 strings out of 478815
+ 246342 string characters out of 5864646
+ 808813 words of memory out of 5000000
+ 35079 multiletter control sequences out of 15000+600000
  404348 words of font info for 43 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 89i,12n,92p,585b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,12n,92p,585b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.pdf (17 pages).
