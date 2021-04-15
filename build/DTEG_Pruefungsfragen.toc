@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {1.5.1}Was regelt die EMV Richtlinie?}{1}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Was regelt die LVD Richtlinie?}{1}{subsubsection.1.5.2}%
 \contentsline {subsubsection}{\numberline {1.5.3}Was regelt die RED Richtlinie?}{1}{subsubsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.6}Sind harmonisierte Normen verpflichtend anzuwenden?}{1}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.6}Sind harmonisierte Normen verpflichtend anzuwenden?}{2}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}Wer darf harmonisierte Normen erstellen?}{2}{subsection.1.7}%
 \contentsline {subsection}{\numberline {1.8}Was bedeutet harmonisierte Norm?}{2}{subsection.1.8}%
 \contentsline {subsection}{\numberline {1.9}Welche Arten von Normen sind ihnen bekannt? Beschreiben Sie sie kurz.}{2}{subsection.1.9}%

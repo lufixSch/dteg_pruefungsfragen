@@ -1,10 +1,11 @@
 \section{Fragen zu Vorlesung 4}
 
-\subsection{Welches Frequenzspektrum hat ein sinusförmiges, welchess ein Pulsförmiges Signal?}
+\subsection{Welches Frequenzspektrum hat ein sinusförmiges, welches ein pulsförmiges Signal?}
 Siehe Fragen~\ref{sec:lv3:freq_spekt}
 \begin{itemize}
   \item \textbf{Sinus:} Einzelner Puls bei der Frequenz des Signals
   \item \textbf{Puls:} Hoher Puls bei der Frequenz des Signals. Langsam absinkende Pulse bei Vielfachen der Grundfrequenz. (Höherer Puls bei ungeraden Vielfachen)
+  breitbandige Störungen (können sich über Leiterbahnen ausbreiten)
 \end{itemize}
 
 \subsection{Wann und warum entstehen elektrostatische Aufladungen?}\label{sec:lv4:electrostatic}
@@ -23,7 +24,12 @@ z.B.
 \end{itemize}
 
 \subsection{Welche Parameter haben Einfluss auf elektrostatische Aufladungen?}
-
+\begin{itemize}
+  \item Art des Materials
+  \item Umgebungsbedingungen (Temperatur, Luftfeuchte)
+  \item Oberflächeneigenschaften (Rauigkeit)
+  \item Sich wiederholende Vorgänge von Kontakt und Trennung der gleichen Körper können zur Erhöhung der Aufladung führen.
+\end {itemize}
 
 \subsection{Welches Frequenzspektrum hat ein ESD Puls?}
 Breitbandiges Störspektrum
@@ -36,6 +42,7 @@ Breitbandiges Störspektrum
 
 \subsection{Welche Anstiegszeit und welche Halbwertszeit hat ein ESD Puls?}
 Sehr schnelle Anstiegszeiten Subnanobereich. Halbwertszeit \(\approx 30ns\). (Siehe Abbildung~\ref{fig:lv4:esd_impuls})
+Anstiegs: 0,5-20ns
 
 \subsection{Wie kann ein ESD Puls in elektronische Schaltungen einkoppeln?}
 \begin{itemize}
@@ -51,6 +58,13 @@ Engl.: Triboelectric Charge. Elektrostatische Aufladung durch Berührung/Reibung
 \subsection{Welche Maßnahmen werden zum Schutz von elektrostatischer Entladung gesetzt?}
 Abhilfe: ESD-Schutzelemente
 \begin{itemize}
+  \item Elektrostatisch schützende Bodenbeläge
+  \item ESD-geeignete Sitzgelegenheiten
+  \item Vermeidung unnötiger Isolatoren beispielsweise Kaffeetassen, Klebebänder, Styropor und Kunsstoffolien
+  \item Verwendung von Ionisatoren zum gezielten Abbau von elektrostatischer Ladung im Produktionsprozess
+\end
+
+\begin{itemize}
   \item ESD Schutzbeschaltung TVS-Dioden
 \end{itemize}
 
@@ -61,7 +75,7 @@ HBM, MM und CDM sind verschiedene Aufbauten für ESD Prüfungen.\p
 Simulation eines ESD durch die Entladung eines Menschen.\p
 %
 \textbf{Machine Model (MM)}\\
-Hier wird das entladen eines beliebigen Objekts auf das Gerät simuliert.\p
+Hier wird das Entladen eines beliebigen Objekts auf das Gerät simuliert.\p
 %
 \textbf{Charged Device Model (CDM)}\\
 Das CDM simuliert die Entladung des statisch geladenen Geräts, wenn es mit einem leitenden Material in Berührung kommt.\p
@@ -100,7 +114,7 @@ Entladung über die Luft
 \end{figure}
 
 \subsection{Wann und warum entstehen Burststörungen?}
-Burststörungen sind leitungsgeführte Störungen und treten bei schnellen Schaltflanken auf. 
+Burststörungen sind leitungsgeführte Störungen und treten bei schnellen Schaltflanken auf.
 
 \subsection{Welches Frequenzspektrum hat ein Burstpuls?}
 Unterschiedliche Bandbreiten möglich. Bandbreite steigt je kürzer der Impuls ist.\\
@@ -131,7 +145,7 @@ Für die Burstprüfung wird alle \(300ms\) ein \(15ms\) langes Burstpaket ausgel
 \subsection{Wie können Burststörungen in elektronischen Schaltungen reduziert werden?}
 
 \subsection{Wann und warum entstehen Surgestörungen?}
-Surgestörungen sind leitungsgeführte Störungen und treten bei Überspannungen durch einen Blitzeinschläge auf. 
+Surgestörungen sind leitungsgeführte Störungen und treten bei Überspannungen durch einen Blitzeinschläge auf.
 
 \subsection{Welches Frequenzspektrum hat ein Surgepuls?}
 siehe Abbildung \ref{fig:lv4:surge_puls}
@@ -145,6 +159,7 @@ siehe Abbildung \ref{fig:lv4:surge_puls}
 Spannungen bis in den KV-Bereich
 
 \subsection{Wie können elektronische Schaltungen vor Surge geschützt werden?}
+
 
 \subsection{Auf welchen Leitungen werden Surge- und Burststörungen üblicherweise eingekoppelt?}
 
