@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.4.14)  15 APR 2021 13:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.4.14)  15 APR 2021 18:10
 entering extended mode
 **"/Users/simonhu/OneDrive - FH JOANNEUM/4Semester/DTEG/Wolfgang_Stock_Fragen/D
 TEG_Pruefungsfragen.tex"
@@ -825,25 +825,25 @@ Overfull \hbox (24.13379pt too wide) in paragraph at lines 74--74
 tentladung abhängig? 
  []
 
-File: src/assets/pictures/VL_3_elektromagnetische_störungen.jpg Graphic file (
-type bmp)
-<src/assets/pictures/VL_3_elektromagnetische_störungen.jpg>
-File: src/assets/pictures/VL_3_surge_pulse.jpg Graphic file (type bmp)
-<src/assets/pictures/VL_3_surge_pulse.jpg>
-
+File: src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg Graphic file (t
+ype bmp)
+<src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg>
+File: src/assets/pictures/lv4_surge_pulse.jpg Graphic file (type bmp)
+<src/assets/pictures/lv4_surge_pulse.jpg>
+[11]
 Overfull \hbox (37.1793pt too wide) in paragraph at lines 122--122
 []\TU/lmr/bx/n/12 Auf welchen Leitungen werden Surge- und Burststörungen üblich
 erweise eingekoppelt? 
  []
 
-) [11] [12])
+) [12])
 (/Users/simonhu/OneDrive - FH JOANNEUM/4Semester/DTEG/Wolfgang_Stock_Fragen/bui
 ld/DTEG_Pruefungsfragen.aux) ) 
 Here is how much of TeX's memory you used:
- 15167 strings out of 413692
- 233436 string characters out of 2869150
+ 15169 strings out of 413692
+ 233475 string characters out of 2869150
  807250 words of memory out of 3000000
- 34781 multiletter control sequences out of 15000+600000
+ 34783 multiletter control sequences out of 15000+600000
  404332 words of font info for 41 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  95i,12n,97p,585b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
