@@ -117,15 +117,16 @@ Entladung über die Luft
 Burststörungen sind leitungsgeführte Störungen und treten bei schnellen Schaltflanken auf.
 
 \subsection{Welches Frequenzspektrum hat ein Burstpuls?}
-Unterschiedliche Bandbreiten möglich. Bandbreite steigt je kürzer der Impuls ist.\\
+Eher Breitbandig (bis 400kHz). Unterschiedliche Bandbreiten möglich. Bandbreite steigt je kürzer der Impuls ist.\\
 siehe Abbildung \ref{fig:lv4:electro_interferences}
 \begin{figure}[ht]
   \centering
-  \includegraphics[height=7cm]{src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg}
+  \includegraphics[width=17cm]{src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg}
   \caption{Elektromagnetische Störungen, Auftreten und Frequenzspektrum}\label{fig:lv4:electro_interferences}
 \end{figure}
 
 \subsection{Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}
+Spannungen bis in den kV-Bereich. Entladeströme gering.
 
 \subsection{Welche Anstiegszeit und welche Halbwertszeit hat ein Burstpuls?}
 Anstiegszeit \(\approx 5ns \pm 30\%\). Halbwertszeit \(\approx 50ns \pm 30\%\). (Siehe Abbildung~\ref{fig:lv4:burst_impuls})
@@ -138,25 +139,65 @@ Anstiegszeit \(\approx 5ns \pm 30\%\). Halbwertszeit \(\approx 50ns \pm 30\%\). 
 
 \subsection{Wie viele Pulse hat ein Burstpaket?}
 Ein Burstpaket entsteht beispielsweise aufgrund der Prellwirkung eines Schalters. Es entstehen somit mehrere aufeinanderfolgende Burstpulse.\p
-Für die Burstprüfung wird alle \(300ms\) ein \(15ms\) langes Burstpaket ausgelöst. Ein Brustpaket hat \(6\) Pulse
+Für die Burstprüfung wird alle \(300ms\) ein \(15ms\) langes Burstpaket ausgelöst. Ein Burstpaket hat \(75\) Pulse (Wiederholrate von \(5kHz\)). Dieser Spannungsverlauf wird für eine Minute an das Gerät angelegt.
 
 \subsection{Welche Einkopplungsmöglichkeiten kennt man bei der Burstprüfung?}
+\begin{outline}
+  \1 Netzleitungen
+  \1 Datenleitungen
+  \1 Messleitungen
+  \1 Kapazitive Kopplung (z.B. bei Optokopplern)
+\end{outline}
+%
+\subsubsection{Koppeleinrichtungen}
+\textbf{Coupling-Decoupling-Network (CDN)}\\
+Aufbau zum Einkoppeln eines Burstpuls/Burstpaket. Parallele Kopplung auf alle Netzzuleitungen (Siehe Abbildung~\ref{fig:lv4:cdn})\p
+%
+\textbf{Koppelzange}\\
+Parallele Kopplung auf alle Adern einer Datenleitung eines jeweiligen Geräts. (Siehe Abbildung~\ref{fig:lv4:koppelzange})
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[height=5cm]{src/assets/pictures/lv4_CDN.jpeg}
+  \caption{CDN Schaltung}\label{fig:lv4:cdn}
+\end{figure}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[height=5cm]{src/assets/pictures/lv4_koppelzange.png}
+  \caption{Koppelzange Schaltung}\label{fig:lv4:koppelzange}
+\end{figure}
 
 \subsection{Wie können Burststörungen in elektronischen Schaltungen reduziert werden?}
+\textbf{Gegentaktstörung}
+\begin{outline}
+  \1 Koppelkapazität reduzieren
+  \1 Rückleiter unmittelbar beim Hinleiter führen. (Leiter nahe der Massestruktur verlegen)
+  \1 Stromkreise in definierten Volumina führen (kurz definierte Wege)
+  \1 Großer räumlicher Abstand von störbehafteten Kreisen zu empfindlichen Stromkreisen
+  \1 Einfügen statischer Schirme (Masseflächen) zwischen den Stromkreisen
+  \1 Potenzialsprünge vermeiden
+\end{outline}
+%
+\textbf{Gleichtaktstörung}
+\begin{outline}
+  \1 Ableiten der Pulse auf Masse vor dem DUT (Y-Kondensatoren)
+  \1 stromkompensierte Drosseln \(\rightarrow\) Spule für Hin- und Rückleiter, welche über Ferritkern verbunden sind
+\end{outline}
 
 \subsection{Wann und warum entstehen Surgestörungen?}
 Surgestörungen sind leitungsgeführte Störungen und treten bei Überspannungen durch einen Blitzeinschläge auf.
 
 \subsection{Welches Frequenzspektrum hat ein Surgepuls?}
-siehe Abbildung \ref{fig:lv4:surge_puls}
+Siehe Abbildung \ref{fig:lv4:surge_puls}
+
 \begin{figure}[ht]
   \centering
   \includegraphics[height=7cm]{src/assets/pictures/lv4_surge_pulse.jpg}
-  \caption{Elektromagnetische Störungen, Auftreten und Frequenzspektrum}\label{fig:lv4:surge_puls}
+  \caption{Verlauf und Frequenzspektrum eines Surgepulses}\label{fig:lv4:surge_puls}
 \end{figure}
 
 \subsection{Mit welchen Spannungs- und Stromhöhen ist beim Surge zu rechnen?}
-Spannungen bis in den KV-Bereich
 
 \subsection{Wie können elektronische Schaltungen vor Surge geschützt werden?}
 
