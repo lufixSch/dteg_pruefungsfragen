@@ -73,4 +73,5 @@
 \contentsline {subsection}{\numberline {4.22}Welches Frequenzspektrum hat ein Surgepuls?}{15}{subsection.4.22}%
 \contentsline {subsection}{\numberline {4.23}Mit welchen Spannungs- und Stromhöhen ist beim Surge zu rechnen?}{15}{subsection.4.23}%
 \contentsline {subsection}{\numberline {4.24}Wie können elektronische Schaltungen vor Surge geschützt werden?}{15}{subsection.4.24}%
-\contentsline {subsection}{\numberline {4.25}Auf welchen Leitungen werden Surge- und Burststörungen üblicherweise eingekoppelt?}{15}{subsection.4.25}%
+\contentsline {subsection}{\numberline {4.25}Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}{15}{subsection.4.25}%
+\contentsline {subsection}{\numberline {4.26}Auf welchen Leitungen werden Surge- und Burststörungen üblicherweise eingekoppelt?}{15}{subsection.4.26}%

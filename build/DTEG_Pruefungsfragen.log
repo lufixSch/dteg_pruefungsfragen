@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.24)  21 APR 2021 11:59
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.24)  27 JUN 2021 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -560,21 +560,3 @@ File: src/assets/pictures/lv4_elektromagnetische_stoerungen.jpg Graphic file (ty
 File: src/assets/pictures/lv4_burst_impuls.png Graphic file (type bmp)
 <src/assets/pictures/lv4_burst_impuls.png>
  [13]
-File: src/assets/pictures/lv4_CDN.jpeg Graphic file (type bmp)
-<src/assets/pictures/lv4_CDN.jpeg>
-File: src/assets/pictures/lv4_koppelzange.png Graphic file (type bmp)
-<src/assets/pictures/lv4_koppelzange.png>
- [14]
-File: src/assets/pictures/lv4_surge_pulse.jpg Graphic file (type bmp)
-<src/assets/pictures/lv4_surge_pulse.jpg>
-) [15]) (/Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.aux) ) 
-Here is how much of TeX's memory you used:
- 15853 strings out of 478815
- 246795 string characters out of 5864646
- 808813 words of memory out of 5000000
- 35092 multiletter control sequences out of 15000+600000
- 404348 words of font info for 43 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 89i,12n,92p,585b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on /Users/lukas/Documents/Studium/02 Vorlesungen/Semester 04/DTEG/Prüfungsfragen/build/DTEG_Pruefungsfragen.pdf (18 pages).

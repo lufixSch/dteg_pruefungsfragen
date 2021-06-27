@@ -199,10 +199,20 @@ Siehe Abbildung \ref{fig:lv4:surge_puls}
 \end{figure}
 
 \subsection{Mit welchen Spannungs- und Stromhöhen ist beim Surge zu rechnen?}
+Anstiegszeit \(\approx 1,2\mu s \pm 30\%\). Halbwertszeit \(\approx 50\mu s \pm 20\%\). (Siehe Abbildung~\ref{fig:lv4:surge_puls})
 
 \subsection{Wie können elektronische Schaltungen vor Surge geschützt werden?}
+TVS Dioden (Reagiert schnell) kombiniert mit Varistor (Für die großen Leistungen).
 
+\subsection{Mit welchen Spannungs- und Stromhöhen ist beim Burststörungen zu rechnen?}
+Spannung bis zu \(6kV\). Strom in den \(kA\)-Bereich.
 
 \subsection{Auf welchen Leitungen werden Surge- und Burststörungen üblicherweise eingekoppelt?}
+\begin{outline}
+  \1 Netzleitungen
+  \1 Datenleitungen
+  \1 Messleitungen
+  \1 Kapazitive Kopplung (z.B. bei Optokopplern)
+\end{outline}
 
 \pagebreak
